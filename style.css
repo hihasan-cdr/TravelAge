@@ -1,0 +1,235 @@
+body,
+a,
+img,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+header,
+nav,
+footer,
+ul,
+li,
+ol {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+header {
+  background: #2c3e50;
+  color: #fff;
+  font-size: 13px;
+  overflow: hidden; }
+
+header i {
+  font-size: 14px; }
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 7px 10px;
+  border-right: 1px solid #222; }
+
+.header-contact {
+  float: left; }
+
+.header-contact li i {
+  margin-right: 4px; }
+
+.header-contact a {
+  color: #1dd2af; }
+
+.header-contact i {
+  color: #fff; }
+
+.header-icon a {
+  color: #fff; }
+
+.header-icon i:hover {
+  color: #1dd2af;
+  transform: rotate(360deg);
+  transition: .5s; }
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: .2rem; }
+
+.navbar-brand span {
+  color: #1dd2af; }
+
+.navbar .navbar-nav .nav-link {
+  color: #444; }
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #1dd2af; }
+
+.navbar-light .nav-item:nth-child(1) .nav-link,
+.navbar-nav .nav-item:nth-child(7) .nav-link {
+  color: #1dd2af; }
+
+.navbar-light .navbar-toggler {
+  color: #fff;
+  background: #f5f4f4; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+.navbar .input-group-text {
+  border-radius: 0; }
+
+.navbar .form-control {
+  border-radius: 0; }
+
+.carousel-item {
+  width: 100%;
+  height: 555px;
+  position: relative; }
+
+.carousel-item img {
+  width: 100%;
+  height: 100%; }
+
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+  right: 0; }
+
+.carousel-caption {
+  margin-bottom: 60px; }
+
+.section-time {
+  text-align: center;
+  background: #2c3e50;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+.section-time li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px; }
+
+.section-time ul:nth-child(4) li {
+  margin-right: 0px; }
+
+.section-time .ffff {
+  border-right: 1px solid #555;
+  padding-right: 13px; }
+
+.section-time label {
+  padding-right: 7px; }
+
+.section-time input {
+  padding: 3px 10px; }
+
+.section-time select {
+  padding: 6px 20px;
+  border: none; }
+
+.section-offer {
+  padding: 50px 0px;
+  padding-bottom: 0px; }
+
+.single-carousel img {
+  min-height: 200px; }
+
+.single-carousel:hover img {
+  padding-top: 10px;
+  transition: .5s; }
+
+.carousel-text {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0px; }
+
+.carousel-text h6 {
+  font-size: 14px;
+  font-weight: normal; }
+
+.carousel-text p {
+  font-size: 16px; }
+
+.section-bg {
+  background: url("../img/hohenzollern-castle-3840x2160-germany-europe-forest-sky-4k-16630.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 70px;
+  position: relative;
+  color: #fff; }
+
+.overlay2 {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0; }
+
+.section-holy ul {
+  padding: 60px 0px; }
+
+.section-holy ul li:hover {
+  color: #1dd2af;
+  border: 2px solid #1dd2af; }
+
+.section-holy li {
+  list-style: none;
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding-right: 17px;
+  margin: 10px; }
+
+[class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+  font-family: Flaticon;
+  font-size: 80px;
+  font-style: normal; }
+
+.section-holy p {
+  padding-top: 10px;
+  margin-left: 18px; }
+
+.section-holy ul li:hover p {
+  color: #fff; }
+
+.section-padding {
+  padding: 60px 0px; }
+
+.section-border {
+  margin-top: -7px; }
+
+.section-border span {
+  background: #1dd2af;
+  width: 60px;
+  height: 4px;
+  display: inline-block; }
+
+.section-border .black-border {
+  background: #333;
+  width: 40px;
+  height: 4px;
+  margin: auto 5px;
+  border-radius: 3px; }
+
+.testimonial-item {
+  border: 1px solid #1dd2af;
+  border-top: 3px solid #1dd2af;
+  max-height: 200px; }
+
+/*# sourceMappingURL=style.css.map */
